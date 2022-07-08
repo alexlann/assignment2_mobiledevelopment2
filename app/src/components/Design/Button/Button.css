@@ -1,0 +1,42 @@
+.btn {
+    border-radius: 1rem;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    transition: 0.2s color ease-in;
+}
+
+.btn--primary {
+    background: rgb(53, 221, 151);
+}
+
+.btn--warning {
+    background: rgb(216, 68, 63);
+}
+
+.btn--primary:hover {
+    background: rgb(46, 180, 124);
+}
+
+.btn--warning:hover {
+    background: rgb(196, 48, 43);
+}
+
+.round {
+    padding: 0;
+    box-sizing: border-box;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 2rem;
+    margin: 0.25rem;
+    font-size: 1rem;
+}
+
+.large {
+    box-sizing: border-box;
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+}

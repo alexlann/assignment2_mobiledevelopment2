@@ -1,0 +1,16 @@
+.error {
+    margin-top: 15px;
+    padding: 15px 25px;
+    width: 30vh;
+    border-radius: 5px;
+}
+
+.error--primary {
+    border: solid 2px rgb(53, 221, 151);
+    background: rgb(175, 238, 213);
+}
+
+.error--warning {
+    border: solid 2px rgb(216, 68, 63);
+    background: rgb(223, 135, 132);
+}

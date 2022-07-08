@@ -1,0 +1,53 @@
+.list {
+    margin: 0;
+    padding: 0;
+}
+
+.list-margin-bottom {
+    margin-bottom: 100px;
+}
+
+.list-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.list-item {
+    list-style-type: none;
+    margin-bottom: 5px;
+    display: flex;
+    width: 20rem;
+    border-radius: 50px;
+    -webkit-box-shadow: 5px 5px 21px 2px rgba(0,0,0,0.27); 
+    box-shadow: 5px 5px 21px 2px rgba(0,0,0,0.27);
+    align-items: center;
+    height: 25px;
+}
+
+.list-item-clickable {
+    cursor: pointer;
+}
+
+.list-item-clickable:hover {
+    background: rgb(175, 238, 213);
+}
+
+.list-item-clickable--active {
+    background: rgb(53, 221, 151);
+}
+
+.list-item-a {
+    box-sizing: border-box;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+.list-item-a:visited {
+    color: black;
+}
+
+.list-item-a:hover {
+    color:rgb(53, 221, 151);
+}
